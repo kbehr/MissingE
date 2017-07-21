@@ -1,4 +1,4 @@
-mple configuration file for an ee->ZH analysis in the 4 jet channel,
+'''Example configuration file for an ee->ZH analysis in the 4 jet channel,
 with the FCC-ee
 
 While studying this file, open it in ipython as well as in your editor to 
