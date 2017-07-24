@@ -217,5 +217,5 @@ class Selection(Analyzer):
         setattr(event, self.cfg_ana.ctracks, nchargedtracks)
 
 #The following string is used in a ROOT macro to apply the cut selection:
-#"((jet1_bmatch*0.9*jet2_bmatch*0.9)+((1-jet1_bmatch)*0.03*(1-jet2_bmatch)*0.03))*(misenergy_m>65 && misenergy_m<125 && alpha>100 && cross>10 && pLges<50 && pTges>15)"
+#"((jet1_bmatch*0.9+(1-jet1_bmatch)*0.03)*(jet2_bmatch*0.9+(1-jet2_bmatch)*0.03))*(misenergy_m>65 && misenergy_m<125 && alpha>100 && cross>10 && pLges<50 && pTges>15)"
 
